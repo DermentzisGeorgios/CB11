@@ -1,0 +1,7 @@
+C:\Users\Drake\source\repos\MyGitTest\MyTestGitProj\MyTestGitProj\bin\Debug\MyTestGitProj.exe.config
+C:\Users\Drake\source\repos\MyGitTest\MyTestGitProj\MyTestGitProj\bin\Debug\MyTestGitProj.exe
+C:\Users\Drake\source\repos\MyGitTest\MyTestGitProj\MyTestGitProj\bin\Debug\MyTestGitProj.pdb
+C:\Users\Drake\source\repos\MyGitTest\MyTestGitProj\MyTestGitProj\obj\Debug\MyTestGitProj.csprojAssemblyReference.cache
+C:\Users\Drake\source\repos\MyGitTest\MyTestGitProj\MyTestGitProj\obj\Debug\MyTestGitProj.csproj.CoreCompileInputs.cache
+C:\Users\Drake\source\repos\MyGitTest\MyTestGitProj\MyTestGitProj\obj\Debug\MyTestGitProj.exe
+C:\Users\Drake\source\repos\MyGitTest\MyTestGitProj\MyTestGitProj\obj\Debug\MyTestGitProj.pdb
