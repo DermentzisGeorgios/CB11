@@ -11,3 +11,10 @@ C:\Users\Drake\source\repos\MyGitTest\CB11-Exercises\Exercise28.7\Exercise28.7\b
 C:\Users\Drake\source\repos\MyGitTest\CB11-Exercises\Exercise28.7\Exercise28.7\obj\Debug\Exercise28.7.csproj.CoreCompileInputs.cache
 C:\Users\Drake\source\repos\MyGitTest\CB11-Exercises\Exercise28.7\Exercise28.7\obj\Debug\Exercise28.7.exe
 C:\Users\Drake\source\repos\MyGitTest\CB11-Exercises\Exercise28.7\Exercise28.7\obj\Debug\Exercise28.7.pdb
+C:\Users\Drake\source\repos\CB11-Exercises\Exercise28.7\Exercise28.7\bin\Debug\Exercise28.7.exe.config
+C:\Users\Drake\source\repos\CB11-Exercises\Exercise28.7\Exercise28.7\bin\Debug\Exercise28.7.exe
+C:\Users\Drake\source\repos\CB11-Exercises\Exercise28.7\Exercise28.7\bin\Debug\Exercise28.7.pdb
+C:\Users\Drake\source\repos\CB11-Exercises\Exercise28.7\Exercise28.7\obj\Debug\Exercise28.7.csprojAssemblyReference.cache
+C:\Users\Drake\source\repos\CB11-Exercises\Exercise28.7\Exercise28.7\obj\Debug\Exercise28.7.csproj.CoreCompileInputs.cache
+C:\Users\Drake\source\repos\CB11-Exercises\Exercise28.7\Exercise28.7\obj\Debug\Exercise28.7.exe
+C:\Users\Drake\source\repos\CB11-Exercises\Exercise28.7\Exercise28.7\obj\Debug\Exercise28.7.pdb
