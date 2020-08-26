@@ -1,0 +1,12 @@
+C:\Users\Drake\source\repos\ProjectKINO\ProjectKINO\bin\Debug\ProjectKINO.exe.config
+C:\Users\Drake\source\repos\ProjectKINO\ProjectKINO\bin\Debug\ProjectKINO.exe
+C:\Users\Drake\source\repos\ProjectKINO\ProjectKINO\bin\Debug\ProjectKINO.pdb
+C:\Users\Drake\source\repos\ProjectKINO\ProjectKINO\obj\Debug\ProjectKINO.csproj.CoreCompileInputs.cache
+C:\Users\Drake\source\repos\ProjectKINO\ProjectKINO\obj\Debug\ProjectKINO.exe
+C:\Users\Drake\source\repos\ProjectKINO\ProjectKINO\obj\Debug\ProjectKINO.pdb
+C:\Users\Drake\source\repos\CB11-Exercises\ProjectKINO\ProjectKINO\bin\Debug\ProjectKINO.exe.config
+C:\Users\Drake\source\repos\CB11-Exercises\ProjectKINO\ProjectKINO\bin\Debug\ProjectKINO.exe
+C:\Users\Drake\source\repos\CB11-Exercises\ProjectKINO\ProjectKINO\bin\Debug\ProjectKINO.pdb
+C:\Users\Drake\source\repos\CB11-Exercises\ProjectKINO\ProjectKINO\obj\Debug\ProjectKINO.csproj.CoreCompileInputs.cache
+C:\Users\Drake\source\repos\CB11-Exercises\ProjectKINO\ProjectKINO\obj\Debug\ProjectKINO.exe
+C:\Users\Drake\source\repos\CB11-Exercises\ProjectKINO\ProjectKINO\obj\Debug\ProjectKINO.pdb
