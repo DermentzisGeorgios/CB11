@@ -1,0 +1,11 @@
+C:\Users\Drake\source\repos\Projects\IndividualProject-George_Dermentzis\Test IndividualProject\bin\Debug\IndividualProject.exe.config
+C:\Users\Drake\source\repos\Projects\IndividualProject-George_Dermentzis\Test IndividualProject\bin\Debug\IndividualProject.exe
+C:\Users\Drake\source\repos\Projects\IndividualProject-George_Dermentzis\Test IndividualProject\bin\Debug\IndividualProject.pdb
+C:\Users\Drake\source\repos\Projects\IndividualProject-George_Dermentzis\Test IndividualProject\bin\Debug\EntityFramework.dll
+C:\Users\Drake\source\repos\Projects\IndividualProject-George_Dermentzis\Test IndividualProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Drake\source\repos\Projects\IndividualProject-George_Dermentzis\Test IndividualProject\bin\Debug\EntityFramework.xml
+C:\Users\Drake\source\repos\Projects\IndividualProject-George_Dermentzis\Test IndividualProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Drake\source\repos\Projects\IndividualProject-George_Dermentzis\Test IndividualProject\obj\Debug\IndividualProject.csproj.CoreCompileInputs.cache
+C:\Users\Drake\source\repos\Projects\IndividualProject-George_Dermentzis\Test IndividualProject\obj\Debug\IndividualProject.csproj.CopyComplete
+C:\Users\Drake\source\repos\Projects\IndividualProject-George_Dermentzis\Test IndividualProject\obj\Debug\IndividualProject.exe
+C:\Users\Drake\source\repos\Projects\IndividualProject-George_Dermentzis\Test IndividualProject\obj\Debug\IndividualProject.pdb
