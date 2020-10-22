@@ -70,8 +70,8 @@ namespace IndividualProject
                 {
                     if (property.Name == "title" || property.Name == "stream" || property.Name == "type" || property.Name == "start_date" || property.Name == "end_date") //compare relevant properties
                     {
-                        prop1 = type.GetProperty(property.Name).GetValue(obj1, null);
-                        prop2 = type.GetProperty(property.Name).GetValue(obj2, null);
+                        prop1 = type.GetProperty(property.Name).GetValue(obj1);
+                        prop2 = type.GetProperty(property.Name).GetValue(obj2);
                         if (property.Name == "start_date" || property.Name == "end_date") //does not work properly, needs casting
                         {
                             if ((DateTime)prop1 != (DateTime)prop2)
@@ -91,8 +91,8 @@ namespace IndividualProject
                 {
                     if (property.Name == "firstName" || property.Name == "lastName" || property.Name == "dateOfBirth" || property.Name == "tuitionFees")
                     {
-                        prop1 = type.GetProperty(property.Name).GetValue(obj1, null);
-                        prop2 = type.GetProperty(property.Name).GetValue(obj2, null);
+                        prop1 = type.GetProperty(property.Name).GetValue(obj1);
+                        prop2 = type.GetProperty(property.Name).GetValue(obj2);
                         if (property.Name == "dateOfBirth")
                         {
                             if ((DateTime)prop1 != (DateTime)prop2)
@@ -117,8 +117,8 @@ namespace IndividualProject
                 {
                     if (property.Name == "firstName" || property.Name == "lastName" || property.Name == "subject")
                     {
-                        prop1 = type.GetProperty(property.Name).GetValue(obj1, null);
-                        prop2 = type.GetProperty(property.Name).GetValue(obj2, null);
+                        prop1 = type.GetProperty(property.Name).GetValue(obj1;
+                        prop2 = type.GetProperty(property.Name).GetValue(obj2);
                         if (prop1 != prop2)
                             notEquals = true;
                     }
@@ -130,8 +130,8 @@ namespace IndividualProject
                 {
                     if (property.Name == "title" || property.Name == "description" || property.Name == "subDateTime" || property.Name == "oralMark" || property.Name == "totalMark")
                     {
-                        prop1 = type.GetProperty(property.Name).GetValue(obj1, null);
-                        prop2 = type.GetProperty(property.Name).GetValue(obj2, null);
+                        prop1 = type.GetProperty(property.Name).GetValue(obj1;
+                        prop2 = type.GetProperty(property.Name).GetValue(obj2);
                         if (property.Name == "subDateTime")
                         {
                             if ((DateTime)prop1 != (DateTime)prop2)
