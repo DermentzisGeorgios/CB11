@@ -1,0 +1,51 @@
+﻿@model FInalProject1.Models.Developer
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<div class="container">
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3>@Html.DisplayFor(model => model.ContactInfo.FullName, new { id = Model.DeveloperID })</h3>
+                <h4>@Html.DisplayFor(model => model.ContactInfo.City, new { id = Model.DeveloperID })</h4>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h4>@Html.DisplayNameFor(model => model.Education)</h4>
+                <h4>@Html.DisplayFor(model => model.Education.School)</h4>
+                @Html.ActionLink("Edit", "EditEducation", new { id = Model.DeveloperID })
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                @Html.ActionLink("Add Skill", "AddSkill", new { id = Model.DeveloperID })
+                <h4>@Html.DisplayNameFor(model => model.Skills)</h4>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var skill in Model.Skills)
+                        {
+                            <tr>
+                                <td>@skill.ID</td>
+                                <td>@skill.Name</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
