@@ -1,27 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30503.244
+VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "George_Dermentzis_Assignment_1", "..\..\..\Desktop\George_Dermentzis_Assignment_1\", "{D996F16F-E721-4C12-A59D-B8F7CBECF3DF}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "George_Dermentzis_Assignment_1", "..\..\..\..\..\Desktop\George_Dermentzis_Assignment_1\", "{D996F16F-E721-4C12-A59D-B8F7CBECF3DF}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51731"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Desktop\George_Dermentzis_Assignment_1\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Desktop\George_Dermentzis_Assignment_1\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51731\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_51731"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\Desktop\George_Dermentzis_Assignment_1\"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Desktop\George_Dermentzis_Assignment_1\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51731\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51731"
-		SlnRelativePath = "..\..\..\Desktop\George_Dermentzis_Assignment_1\"
+		SlnRelativePath = "..\..\..\..\..\Desktop\George_Dermentzis_Assignment_1\"
 	EndProjectSection
 EndProject
 Global
@@ -36,6 +36,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {477157F2-AA4F-4C04-80C1-491263EB6301}
+		SolutionGuid = {F5CCDEB6-4970-4E84-AC74-19B685FCC186}
 	EndGlobalSection
 EndGlobal
