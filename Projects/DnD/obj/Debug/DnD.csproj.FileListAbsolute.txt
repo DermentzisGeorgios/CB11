@@ -1,0 +1,14 @@
+C:\Users\Drake\source\repos\DnD\bin\Debug\DnD.exe.config
+C:\Users\Drake\source\repos\DnD\bin\Debug\DnD.exe
+C:\Users\Drake\source\repos\DnD\bin\Debug\DnD.pdb
+C:\Users\Drake\source\repos\DnD\obj\Debug\DnD.csprojAssemblyReference.cache
+C:\Users\Drake\source\repos\DnD\obj\Debug\DnD.csproj.CoreCompileInputs.cache
+C:\Users\Drake\source\repos\DnD\obj\Debug\DnD.exe
+C:\Users\Drake\source\repos\DnD\obj\Debug\DnD.pdb
+C:\Users\Drake\source\repos\Exercises\DnD\bin\Debug\DnD.exe.config
+C:\Users\Drake\source\repos\Exercises\DnD\bin\Debug\DnD.exe
+C:\Users\Drake\source\repos\Exercises\DnD\bin\Debug\DnD.pdb
+C:\Users\Drake\source\repos\Exercises\DnD\obj\Debug\DnD.csprojAssemblyReference.cache
+C:\Users\Drake\source\repos\Exercises\DnD\obj\Debug\DnD.csproj.CoreCompileInputs.cache
+C:\Users\Drake\source\repos\Exercises\DnD\obj\Debug\DnD.exe
+C:\Users\Drake\source\repos\Exercises\DnD\obj\Debug\DnD.pdb
