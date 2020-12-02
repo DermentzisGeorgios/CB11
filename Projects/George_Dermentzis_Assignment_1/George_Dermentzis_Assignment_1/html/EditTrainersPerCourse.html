@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h2><u>Edit Trainers-Course</u></h2>
+    <form action="TrainersPerCourse.html">
+        <div class="form-group">
+            <label for="courses">Choose Course</label>
+            <input list="courseList" id="courses" name="Choose Course" required>
+            <datalist id="courseList">
+                <option value="CB11 C# Part Time">
+                <option value="CB11 Java Full Time">
+                <option value="CB12 Python Part Time">
+                <option value="CB12 JavaScript Full Time">
+            </datalist>
+        </div>
+        <div class="form-group">
+            <label for="trainers">Choose Trainer(s)</label>
+            <select id="trainers" name="Choose Trainers" multiple required>
+                <option value="Aggelos Vegkos">Aggelos Vegkos</option>
+                <option selected value="Mixalis Xamilos">Mixalis Xamilos</option>
+                <option selected value="George Pasparakis">George Pasparakis</option>
+                <option value="Ektoras Gkatsos">Ektoras Gkatsos</option>
+            </select>
+        </div>
+        <input type="submit" class="btn btn-success" />
+        <a class="btn btn-secondary" href="TrainersPerCourse.html">Back</a>
+    </form>
+</body>
+</html>

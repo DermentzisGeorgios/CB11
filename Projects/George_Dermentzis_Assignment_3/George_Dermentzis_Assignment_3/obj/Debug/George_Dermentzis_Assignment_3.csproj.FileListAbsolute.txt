@@ -1,0 +1,7 @@
+C:\Users\Drake\source\repos\George_Dermentzis_Assignment_3\George_Dermentzis_Assignment_3\obj\Debug\George_Dermentzis_Assignment_3.csprojAssemblyReference.cache
+C:\Users\Drake\source\repos\George_Dermentzis_Assignment_3\George_Dermentzis_Assignment_3\obj\Debug\George_Dermentzis_Assignment_3.csproj.CoreCompileInputs.cache
+C:\Users\Drake\source\repos\George_Dermentzis_Assignment_3\George_Dermentzis_Assignment_3\bin\Debug\George_Dermentzis_Assignment_3.exe.config
+C:\Users\Drake\source\repos\George_Dermentzis_Assignment_3\George_Dermentzis_Assignment_3\bin\Debug\George_Dermentzis_Assignment_3.exe
+C:\Users\Drake\source\repos\George_Dermentzis_Assignment_3\George_Dermentzis_Assignment_3\bin\Debug\George_Dermentzis_Assignment_3.pdb
+C:\Users\Drake\source\repos\George_Dermentzis_Assignment_3\George_Dermentzis_Assignment_3\obj\Debug\George_Dermentzis_Assignment_3.exe
+C:\Users\Drake\source\repos\George_Dermentzis_Assignment_3\George_Dermentzis_Assignment_3\obj\Debug\George_Dermentzis_Assignment_3.pdb

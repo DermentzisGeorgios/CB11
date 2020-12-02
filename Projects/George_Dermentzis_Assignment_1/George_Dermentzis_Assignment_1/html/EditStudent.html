@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h2><u>Edit Student</u></h2>
+    <form action="Students.html">
+        <div class="form-group">
+            <label for="studentID">ID</label>
+            <input id="studentID" type="number" name="ID" value="1" readonly />
+        </div>
+        <div class="form-group">
+            <label for="firstName">Firstname</label>
+            <input id="firstName" type="text" name="Firstname" value="George" placeholder="Please give firstname" minlenght="2" maxlength="40" required />
+        </div>
+        <div class="form-group">
+            <label for="lastName">Lastname</label>
+            <input id="lastName" type="text" name="Lastname" value="Dermentzis" placeholder="Please give lastname" minlength="2" maxlength="40" required />
+        </div>
+        <div class="form-group">
+            <label for="dateOfBirth">Date of Birth</label>
+            <input id="dateOfBirth" type="date" name="Date of Birth" value="1995-11-06" pattern="\d{1,2}/\d{1,2}/\d{4}" required />
+        </div>
+        <div class="form-group">
+            <label for="tuitionFees">Tuition Fees</label>
+            <input id="tuitionFees" type="number" name="Tuition Fees" value="1800" placeholder="Please give tuition fees" min="0" max="999999" required />
+        </div>
+        <input type="submit" class="btn btn-success" />
+        <a class="btn btn-secondary" href="Students.html">Back</a>
+    </form>
+</body>
+</html>

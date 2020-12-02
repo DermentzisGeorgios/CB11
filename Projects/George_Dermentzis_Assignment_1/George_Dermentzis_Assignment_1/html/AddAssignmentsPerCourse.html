@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h2><u>Add Assignments-Course</u></h2>
+    <form action="AssignmentsPerCourse.html">
+        <div class="form-group">
+            <label for="courses">Choose Course</label>
+            <input list="courseList" id="courses" name="Choose Course" required>
+            <datalist id="courseList">
+                <option value="CB11 C# Part Time">
+                <option value="CB11 Java Full Time">
+                <option value="CB12 Python Part Time">
+                <option value="CB12 JavaScript Full Time">
+            </datalist>
+        </div>
+        <div class="form-group">
+            <label for="assignments">Choose Assignment(s)</label>
+            <select id="assignments" name="Choose Assignments" multiple required>
+                <option value="Individual Project 1">Individual Project 1</option>
+                <option value="School Project">School Project</option>
+                <option value="Individual Project 2">Individual Project 2</option>
+                <option value="Odd-Even">Odd-Even</option>
+            </select>
+        </div>
+        <input type="submit" class="btn btn-success" />
+        <a class="btn btn-secondary" href="AssignmentsPerCourse.html">Back</a>
+    </form>
+</body>
+</html>

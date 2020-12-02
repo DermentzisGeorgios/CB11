@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h2><u>Add Course</u></h2>
+    <form action="../Index.html">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input id="title" type="text" name="Title" value="" placeholder="Please give the Title" minlenght="2" maxlength="40" required autocomplete="on" />
+        </div>
+        <div class="form-group">
+            <label for="stream">Stream</label>
+            <input id="stream" type="text" name="Stream" value="" placeholder="Please give the Stream" min="2" max="40" required autocomplete="on" />
+        </div>
+        <div class="form-group">
+            <label for="type">Type</label>
+            <input id="type" type="text" name="Type" value="" placeholder="Please give the Type" min="2" max="40" required autocomplete="on" />
+        </div>
+        <div class="form-group">
+            <label for="start_date">Start Date</label>
+            <input id="start_date" type="date" name="Start Date" value="" pattern="\d{1,2}/\d{1,2}/\d{4}" required />
+        </div>
+        <div class="form-group">
+            <label for="end_date">End Date</label>
+            <input id="end_date" type="date" name="End Date" value="" pattern="\d{1,2}/\d{1,2}/\d{4}" required />
+        </div>
+        <input type="submit" class="btn btn-success" />
+        <a class="btn btn-secondary" href="../Index.html">Back</a>
+    </form>
+</body>
+</html>

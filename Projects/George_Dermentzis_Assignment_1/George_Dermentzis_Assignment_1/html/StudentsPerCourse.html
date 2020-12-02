@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="../css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-light bg-primary">
+            <div class="container-fluid row">
+                <div class="navbar-brand col-md">
+                    4School
+                </div>
+                <div class="col-md-11">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="../Index.html">Courses</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../Index.html">Show Courses</a>
+                                <a class="dropdown-item" href="AddCourse.html">Add Course</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="Students.html">Students</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="Students.html">Show Students</a>
+                                <a class="dropdown-item" href="AddStudent.html">Add Student</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="Trainers.html">Trainers</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="Trainers.html">Show Trainers</a>
+                                <a class="dropdown-item" href="AddTrainer.html">Add Trainer</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="Assignments.html">Assignments</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="Assignments.html">Show Assignments</a>
+                                <a class="dropdown-item" href="AddAssignment.html">Add Assignments</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="StudentsPerCourse.html">Students per Course</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="StudentsPerCourse.html">Show Students per Course</a>
+                                <a class="dropdown-item" href="AddStudentsPerCourse.html">Add Students per Course</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="TrainersPerCourse.html">Trainers per Course</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="TrainersPerCourse.html">Show Trainers per Course</a>
+                                <a class="dropdown-item" href="AddTrainersPerCourse.html">Add Trainers per Course</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="AssignmentsPerCourse.html">Assignments per Course</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="AssignmentsPerCourse.html">Show Assignments per Course</a>
+                                <a class="dropdown-item" href="AddAssignmentsPerCourse.html">Add Assignments per Course</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="AssignmentsPerCoursePerStudent.html">Assignments per Course per Student</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="AssignmentsPerCoursePerStudent.html">Show Assignments per Course per Student</a>
+                                <a class="dropdown-item" href="AddAssignmentsPerCoursePerStudent.html">Add Assignments per Course per Student</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid pt-4">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>title</th>
+                        <th>stream</th>
+                        <th>type</th>
+                        <th>Students</th>
+                        <th>Edit/Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CB11</td>
+                        <td>C#</td>
+                        <td>Part Time</td>
+                        <td>
+                            <ul class="list-unstyled">
+                                <li>George Dermentzis</li>
+                                <li>Vasilis Papadopoulos</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a class="btn btn-success" href="EditStudentsPerCourse.html">Edit</a>
+                            <a class="btn btn-danger" data-toggle="modal" data-target="#Modal" href="#">Delete</a>
+                            <div class="modal" id="Modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title">Warning!</h3>
+                                        </div>
+                                        <h6 class="modal-body">This item will be permanently deleted!</h6>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">OK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CB11</td>
+                        <td>Java</td>
+                        <td>Full Time</td>
+                        <td>
+                            <ul class="list-unstyled">
+                                <li>Afroditi Vlachou</li>
+                                <li>Giannis Grigoriou</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a class="btn btn-success" href="EditStudentsPerCourse.html">Edit</a>
+                            <a class="btn btn-danger" data-toggle="modal" data-target="#Modal" href="#">Delete</a>
+                            <div class="modal" id="Modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title">Warning!</h3>
+                                        </div>
+                                        <h6 class="modal-body">This item will be permanently deleted!</h6>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">OK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CB12</td>
+                        <td>Python</td>
+                        <td>Part Time</td>
+                        <td>
+                            <ul class="list-unstyled">
+                                <li>Giannis Grigoriou</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a class="btn btn-success" href="EditStudentsPerCourse.html">Edit</a>
+                            <a class="btn btn-danger" data-toggle="modal" data-target="#Modal" href="#">Delete</a>
+                            <div class="modal" id="Modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title">Warning!</h3>
+                                        </div>
+                                        <h6 class="modal-body">This item will be permanently deleted!</h6>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">OK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CB12</td>
+                        <td>JavaScript</td>
+                        <td>Full Time</td>
+                        <td>
+                            <ul class="list-unstyled">
+                                <li>George Dermentzis</li>
+                                <li>Afroditi Vlachou</li>
+                                <li>Giannis Grigoriou</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a class="btn btn-success" href="EditStudentsPerCourse.html">Edit</a>
+                            <a class="btn btn-danger" data-toggle="modal" data-target="#Modal" href="#">Delete</a>
+                            <div class="modal" id="Modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title">Warning!</h3>
+                                        </div>
+                                        <h6 class="modal-body">This item will be permanently deleted!</h6>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">OK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div>
+            <strong>2020-2021</strong>
+        </div>
+    </footer>
+</body>
+</html>

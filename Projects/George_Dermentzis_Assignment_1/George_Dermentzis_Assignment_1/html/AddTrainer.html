@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h2><u>Add Trainer</u></h2>
+    <form action="Trainers.html">
+        <div class="form-group">
+            <label for="firstName">Firstname</label>
+            <input id="firstName" type="text" name="Firstname" value="" placeholder="Please give firstname" minlenght="2" maxlength="40" required autocomplete="on" />
+        </div>
+        <div class="form-group">
+            <label for="lastName">Lastname</label>
+            <input id="lastName" type="text" name="Lastname" value="" placeholder="Please give lastname" minlength="2" maxlength="40" required autocomplete="on" />
+        </div>
+        <div class="form-group">
+            <label for="subject">Subject</label>
+            <input id="subject" type="text" name="Subject" value="" placeholder="Please give subject" minlength="2" maxlength="40" required autocomplete="on" />
+        </div>
+        <input type="submit" class="btn btn-success" />
+        <a class="btn btn-secondary" href="Trainers.html">Back</a>
+    </form>
+</body>
+</html>
