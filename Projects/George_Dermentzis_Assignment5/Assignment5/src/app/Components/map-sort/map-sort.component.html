@@ -1,0 +1,14 @@
+<section class="map-sort">
+    <div class="map">
+        <iframe [src]="mapUrl | safe"></iframe>
+    </div>
+    
+    <div class="sorting">
+        <mat-label>Sort By</mat-label>
+        <select (change)="SortEntriesByFilter()" [(ngModel)]="sortingFilter">
+            <!-- <option value="" hidden disabled selected>Placeholder</option> -->
+            <option *ngFor="let filter of sortingFilters" [value]="filter">{{filter}}</option>
+        </select>
+        <span class="info-icon">i</span>
+    </div>
+</section>

@@ -1,0 +1,47 @@
+<div class="third-row">
+    <div class="col first-col">
+        <div class="label">
+            <span>Price</span>
+            <span>max. ${{selectedPrice}}</span>
+        </div>
+        <input (ngModelChange)="FilterEntriesByPrice()" [(ngModel)]="selectedPrice" type="range" min="0" max="1500" step="50" />
+    </div>
+
+    <div class="col">
+        <div class="label">Property Type</div>
+        <mat-select placeholder="All" (selectionChange)="FilterEntriesByRating()" [(ngModel)]="selectedRating">
+            <mat-option [value]="0">All</mat-option>
+            <mat-option [value]="1">⭐</mat-option>
+            <mat-option [value]="2">⭐⭐</mat-option>
+            <mat-option [value]="3">⭐⭐⭐</mat-option>
+            <mat-option [value]="4">⭐⭐⭐⭐</mat-option>
+            <mat-option [value]="5">⭐⭐⭐⭐⭐</mat-option>
+        </mat-select>
+    </div>
+
+    <div class="col">
+        <div class="label">Guest Rating</div>
+        <mat-select placeholder="All" (selectionChange)="FilterEntriesByRatings()" [(ngModel)]="selectedRatings">
+            <mat-option [value]="null">All</mat-option>
+            <mat-option *ngFor="let rating of customRatings" [value]="rating">{{rating.min}} - {{rating.max}} {{rating.text}}</mat-option>
+        </mat-select>
+    </div>
+
+    <div class="col">
+        <div class="label">Hotel Location</div>
+        <mat-select placeholder="All" (selectionChange)="FilterEntriesByLocation()" [(ngModel)]="selectedCity">
+            <mat-option [value]="null">All</mat-option>
+            <mat-option *ngFor="let city of cities" [value]="city">{{city}}</mat-option>
+        </mat-select>
+    </div>
+
+    <div class="col">
+        <div class="label">More Filters</div>
+        <mat-select placeholder="Bedroom">
+            <mat-option>Bedroom</mat-option>
+            <mat-option>Bathroom</mat-option>
+            <mat-option>Living Room</mat-option>
+            <mat-option>Kitchen</mat-option>
+        </mat-select>
+    </div>
+</div>

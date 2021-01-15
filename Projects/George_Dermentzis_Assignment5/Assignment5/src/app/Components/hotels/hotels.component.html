@@ -1,0 +1,87 @@
+<section class="listing-hotels">
+  <div *ngFor="let entry of entries" class="hotel-card">
+    <div class="photo"
+      style="background: url({{entry.thumbnail}}); background-position: center;">
+      <i class="fa fa-heart"></i>
+      <span>1/30</span>
+    </div>
+
+
+    <div class="details">
+      <h3>{{entry.hotelName}}</h3>
+      <div class="rating">
+        <div>
+          <i *ngFor="let star of Stars(entry.rating)" class="fa fa-star"></i>
+          <span>Hotel</span>
+        </div>
+      </div>
+
+      <div class="location">
+        {{entry.city}}, 0.2 Miles to Champs Elysees
+      </div>
+
+      <div class="reviews">
+        <span class="total">{{entry.ratings.no}}</span>
+        <b>{{entry.ratings.text}}</b>
+        <small>(1736)</small>
+      </div>
+
+      <div class="location-reviews">
+        {{entry.ratings.text}} location <small>({{entry.ratings.no}}/10)</small>
+      </div>
+    </div>
+
+
+    <div class="third-party-prices">
+      <div class="sites-and-prices">
+        <div class="highlited">
+          Hotel website
+          <strong>${{entry.price}}</strong>
+        </div>
+
+        <div>
+          Agoda
+          <strong>$575</strong>
+        </div>
+
+        <div>
+          Travelocity
+          <strong>$708</strong>
+        </div>
+      </div>
+
+      <div class="more-deals">
+        <strong>More deals from</strong>
+          <strong>$575</strong>
+          <!-- <mat-icon>keyboard_arrow_down</mat-icon> -->
+      </div>
+    </div>
+
+
+    <div class="call-to-action">
+      <div class="price">
+        <div class="before-discount">
+          HotelPower.com
+          <strong><s>${{entry.price + 355}}</s></strong>
+        </div>
+
+        <div class="after-discount">
+          Hotel Website
+          <strong>${{entry.price}}</strong>
+
+          <div class="total">
+            3 nights for <strong>{{2*entry.price + 355}}</strong>
+          </div>
+
+          <div class="usp">
+            <span>Free Breakfast</span>
+          </div>
+        </div>
+
+        <div class="button">
+          <a href="#">View Deal</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

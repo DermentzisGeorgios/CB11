@@ -1,0 +1,11 @@
+<div class="hotel-page">
+  <section class="search-filter">
+    <app-search (citiesChange)="Filter($event)"></app-search>
+    <app-booking></app-booking>
+    <app-filter (entriesChange)="Filter($event)"></app-filter>
+  </section>
+
+  <app-map-sort (entriesChange)="Filter($event)"></app-map-sort>
+  
+  <app-hotels [entries]="hotel.hotel[1].entries"></app-hotels>
+</div>

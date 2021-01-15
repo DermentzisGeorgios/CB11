@@ -1,0 +1,36 @@
+.second-row {
+  display: flex;
+  padding: 5px 10px;
+  height: 45px;
+  justify-content: space-between;
+}
+
+.second-row .fa {
+  padding: 0px 15px;
+}
+
+.second-row .col {
+  width: 32%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.second-row .col input {
+  width: 100%;
+  height: 100%;
+  padding-left: 30px;
+}
+
+.second-row .col #roomtype {
+  cursor: pointer;
+}
+
+.second-row .first-col {
+  border-left: solid #007fad 7px;
+}
+
+.second-row .second-col {
+  border-left: solid #f48f00 7px;
+}

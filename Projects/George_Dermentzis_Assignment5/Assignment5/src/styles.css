@@ -1,0 +1,23 @@
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+
+body, input, select, h3, small, b, i, span, strong {
+  border: none;
+  background: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: #fbfbfb;
+  font-family: sans-serif;
+}
+
+input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+option {
+  background-color: #ebeced;
+  color: #37454d;
+}

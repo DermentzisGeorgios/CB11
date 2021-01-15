@@ -1,0 +1,38 @@
+.first-row {
+  display: flex;
+  padding: 5px 10px;
+  height: 45px;
+}
+
+.first-row .fa {
+  padding: 0px 15px;
+}
+
+.first-row .first-col {
+  width: 85%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.first-row .first-col input {
+  height: 100%;
+  width: 100%;
+  line-height: 30px;
+}
+
+.first-row .second-col {
+  width: 15%;
+  background-color: #007fad;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.first-row .second-col input {
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
