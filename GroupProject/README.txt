@@ -1,1 +1,7 @@
-Load the mock-up data from the SQL scripts in the Sqldata folder. The order is from 1-8 as shown.
+Steps:
+
+1) Change Connection String
+2) Run solution and update Database
+3) Open SqlData Folder and run the scripts with the order they are numbered! (Make sure database name is correct
+on 1st line of scripts)
+4)Enjoy!
