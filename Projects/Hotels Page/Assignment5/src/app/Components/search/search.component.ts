@@ -11,6 +11,7 @@ export class SearchComponent {
   search: string = "";
   cities: string[] = [];
   entries: IEntry[];
+  
   @Output() citiesChange = new EventEmitter<IEntry[]>();
 
   constructor(private searchService: SearchService) { }
