@@ -1,27 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30621.155
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "George_Dermentzis_Assignment_1", "..\..\..\..\..\Desktop\George_Dermentzis_Assignment_1\", "{D996F16F-E721-4C12-A59D-B8F7CBECF3DF}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "George_Dermentzis_Assignment_1", "George_Dermentzis_Assignment_1\", "{5B01803D-3429-4400-9390-0A9EA3B7D484}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_51731"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Desktop\George_Dermentzis_Assignment_1\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51731\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55410"
+		Debug.AspNetCompiler.PhysicalPath = "George_Dermentzis_Assignment_1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55410\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_51731"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Desktop\George_Dermentzis_Assignment_1\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51731\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55410"
+		Release.AspNetCompiler.PhysicalPath = "George_Dermentzis_Assignment_1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55410\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "51731"
-		SlnRelativePath = "..\..\..\..\..\Desktop\George_Dermentzis_Assignment_1\"
+		VWDPort = "55410"
+		SlnRelativePath = "George_Dermentzis_Assignment_1\"
 	EndProjectSection
 EndProject
 Global
@@ -29,13 +29,13 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D996F16F-E721-4C12-A59D-B8F7CBECF3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D996F16F-E721-4C12-A59D-B8F7CBECF3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B01803D-3429-4400-9390-0A9EA3B7D484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B01803D-3429-4400-9390-0A9EA3B7D484}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F5CCDEB6-4970-4E84-AC74-19B685FCC186}
+		SolutionGuid = {0E4C3AB5-EF7D-4EEC-8DAB-9948B4775F3F}
 	EndGlobalSection
 EndGlobal
