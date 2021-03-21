@@ -14,7 +14,7 @@ namespace Individual_Project_Part_A
             var container = RegisterContainers();
             container.Resolve<Menu>().Welcome();
         }
-        
+
         static IUnityContainer RegisterContainers()
         {
             var container = new UnityContainer();
