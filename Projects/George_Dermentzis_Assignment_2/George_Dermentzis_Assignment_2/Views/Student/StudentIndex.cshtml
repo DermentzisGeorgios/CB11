@@ -1,0 +1,51 @@
+﻿@model IEnumerable<George_Dermentzis_Assignment_2.Models.Student>
+
+<h2>Students</h2>
+
+<p>
+    @Html.ActionLink("Add Student", "Get", "Student", new { id = 0 }, new { @class = "btn btn-primary" })
+</p>
+
+<table class="table table-bordered text-center">
+    <thead style="background-color: #333; color: #fff;">
+        <tr>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.TuitionFees)
+            </th>
+            <th class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfBirth)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TuitionFees)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Get", "Student", new { id = item.StudentID }, new { @class = "btn btn-sm btn-success" })
+                    @Html.ActionLink("Delete", "Delete", "Student", new { id = item.StudentID }, new { @class = "btn btn-sm btn-danger" })
+                    @Html.ActionLink("Assign", "", "Student", new { id = item.StudentID }, new { @class = "btn btn-sm btn-info" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

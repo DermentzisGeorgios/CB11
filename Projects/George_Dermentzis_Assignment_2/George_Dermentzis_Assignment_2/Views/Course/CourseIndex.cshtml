@@ -1,0 +1,57 @@
+﻿@model IEnumerable<George_Dermentzis_Assignment_2.Models.Course>
+
+<h2>Courses</h2>
+
+<p>
+    @Html.ActionLink("Add Course", "Get", "Course", new { id = 0 }, new { @class = "btn btn-primary" })
+</p>
+
+<table class="table table-bordered text-center">
+    <thead style="background-color: #333; color: #fff;">
+        <tr>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Stream)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+            <th class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Stream)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Get", "Course", new { id = item.CourseID }, new { @class = "btn btn-sm btn-success" })
+                    @Html.ActionLink("Delete", "Delete", "Course", new { id = item.CourseID }, new { @class = "btn btn-sm btn-danger" })
+                    @Html.ActionLink("Assign", "", "Course", new { id = item.CourseID }, new { @class = "btn btn-sm btn-info" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

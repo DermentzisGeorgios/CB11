@@ -1,0 +1,57 @@
+﻿@model IEnumerable<George_Dermentzis_Assignment_2.Models.Assignment>
+
+<h2>Assignments</h2>
+
+<p>
+    @Html.ActionLink("Add Assignment", "Get", "Assignment", new { id = 0 }, new { @class = "btn btn-primary" })
+</p>
+
+<table class="table table-bordered text-center">
+    <thead style="background-color: #333; color: #fff;">
+        <tr>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.SubmissionDate)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.OralMark)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.TotalMark)
+            </th>
+            <th class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SubmissionDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OralMark)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalMark)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Get", "Assignment", new { id = item.AssignmentID }, new { @class = "btn btn-sm btn-success" })
+                    @Html.ActionLink("Delete", "Delete", "Assignment", new { id = item.AssignmentID }, new { @class = "btn btn-sm btn-danger" })
+                    @Html.ActionLink("Assign", "", "Assignment", new { id = item.AssignmentID }, new { @class = "btn btn-sm btn-info" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

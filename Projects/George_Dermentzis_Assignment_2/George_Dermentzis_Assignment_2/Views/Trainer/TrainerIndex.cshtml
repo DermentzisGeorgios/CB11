@@ -1,0 +1,45 @@
+﻿@model IEnumerable<George_Dermentzis_Assignment_2.Models.Trainer>
+
+<h2>Trainers</h2>
+
+<p>
+    @Html.ActionLink("Add Trainer", "Get", "Trainer", new { id = 0 }, new { @class = "btn btn-primary" })
+</p>
+
+<table class="table table-bordered text-center">
+    <thead style="background-color: #333; color: #fff;">
+        <tr>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Subject)
+            </th>
+            <th class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subject)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Get", "Trainer", new { id = item.TrainerID }, new { @class = "btn btn-sm btn-success" })
+                    @Html.ActionLink("Delete", "Delete", "Trainer", new { id = item.TrainerID }, new { @class = "btn btn-sm btn-danger" })
+                    @Html.ActionLink("Assign", "", "Trainer", new { id = item.TrainerID }, new { @class = "btn btn-sm btn-info" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
