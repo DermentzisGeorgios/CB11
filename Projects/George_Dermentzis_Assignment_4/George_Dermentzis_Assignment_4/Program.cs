@@ -12,36 +12,34 @@ namespace George_Dermentzis_Assignment_4
     {
         static void Main(string[] args)
         {
-            // I have not completed the last 2 requests. Keep it simple!
-
             MyDatabase db = new MyDatabase();
             var newList = new List<TShirt>(db.TShirts);
             
             //All BubbleSort 
-            AllBubbleSort(newList);
+            //AllBubbleSort(newList);
 
             //All QuickSort
-            AllQuickSort(newList);
+            //AllQuickSort(newList);
 
             //All BucketSort
-            AllBucketSort(newList);
+            //AllBucketSort(newList);
 
 
             //The Reverse method takes about the same time as the sorting algorithm to sort the list. The difference is 1-6 ms in average so it is suitable to reverse sort a list of 40 elements.
 
-            //Stopwatch stopwatch = new Stopwatch();
-            //stopwatch.Restart();
-            //var sortedList = BubbleSort.SortShirtsByColorAsc(newList);
-            //ShowList(sortedList);  
-            //stopwatch.Stop();
-            //Console.WriteLine(stopwatch.ElapsedMilliseconds);
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Restart();
+            var sortedList = BubbleSort.SortShirtsByColorAsc(newList);
+            ShowList(sortedList);
+            stopwatch.Stop();
+            Console.WriteLine(stopwatch.ElapsedMilliseconds);
 
-            //stopwatch.Restart();
-            //Console.WriteLine("Color in Descending\n");
-            //sortedList.Reverse();
-            //ShowList(sortedList);
-            //stopwatch.Stop();
-            //Console.WriteLine(stopwatch.ElapsedMilliseconds);
+            stopwatch.Restart();
+            Console.WriteLine("Color in Descending\n");
+            sortedList.Reverse();
+            ShowList(sortedList);
+            stopwatch.Stop();
+            Console.WriteLine(stopwatch.ElapsedMilliseconds);
         }
 
         static void ShowList(List<TShirt> newList)

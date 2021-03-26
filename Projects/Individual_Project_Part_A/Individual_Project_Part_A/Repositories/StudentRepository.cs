@@ -10,8 +10,6 @@ namespace Individual_Project_Part_A.Repositories
 {
     class StudentRepository
     {
-
-
         public void AddStudent(IEqualityComparer<IModel> comparer)
         {
             var student = GetStudent();

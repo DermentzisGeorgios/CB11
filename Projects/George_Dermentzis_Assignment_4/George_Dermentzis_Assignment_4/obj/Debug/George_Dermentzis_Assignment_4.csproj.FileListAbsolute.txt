@@ -5,3 +5,10 @@ C:\Users\Drake\source\repos\George_Dermentzis_Assignment_4\George_Dermentzis_Ass
 C:\Users\Drake\source\repos\George_Dermentzis_Assignment_4\George_Dermentzis_Assignment_4\obj\Debug\George_Dermentzis_Assignment_4.csproj.CoreCompileInputs.cache
 C:\Users\Drake\source\repos\George_Dermentzis_Assignment_4\George_Dermentzis_Assignment_4\obj\Debug\George_Dermentzis_Assignment_4.exe
 C:\Users\Drake\source\repos\George_Dermentzis_Assignment_4\George_Dermentzis_Assignment_4\obj\Debug\George_Dermentzis_Assignment_4.pdb
+C:\Users\Drake\source\repos\CB11\Projects\George_Dermentzis_Assignment_4\George_Dermentzis_Assignment_4\bin\Debug\George_Dermentzis_Assignment_4.exe.config
+C:\Users\Drake\source\repos\CB11\Projects\George_Dermentzis_Assignment_4\George_Dermentzis_Assignment_4\bin\Debug\George_Dermentzis_Assignment_4.exe
+C:\Users\Drake\source\repos\CB11\Projects\George_Dermentzis_Assignment_4\George_Dermentzis_Assignment_4\bin\Debug\George_Dermentzis_Assignment_4.pdb
+C:\Users\Drake\source\repos\CB11\Projects\George_Dermentzis_Assignment_4\George_Dermentzis_Assignment_4\obj\Debug\George_Dermentzis_Assignment_4.csprojAssemblyReference.cache
+C:\Users\Drake\source\repos\CB11\Projects\George_Dermentzis_Assignment_4\George_Dermentzis_Assignment_4\obj\Debug\George_Dermentzis_Assignment_4.csproj.CoreCompileInputs.cache
+C:\Users\Drake\source\repos\CB11\Projects\George_Dermentzis_Assignment_4\George_Dermentzis_Assignment_4\obj\Debug\George_Dermentzis_Assignment_4.exe
+C:\Users\Drake\source\repos\CB11\Projects\George_Dermentzis_Assignment_4\George_Dermentzis_Assignment_4\obj\Debug\George_Dermentzis_Assignment_4.pdb

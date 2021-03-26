@@ -19,7 +19,7 @@ namespace Individual_Project_Part_A.Validations
                 {
                     flag = false;
                     break;
-                }                  
+                }
             }
 
             return flag;
