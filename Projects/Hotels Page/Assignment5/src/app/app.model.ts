@@ -1,36 +1,36 @@
 export interface IHotel {
-    hotel: [IRoomtypes, IEntries];
+  hotel: [IRoomtypes, IEntries];
 }
 
 export interface IRoomtypes {
-    roomtypes: IRoomtype[];
+  roomtypes: IRoomtype[];
 }
 
 export interface IEntries {
-    entries: IEntry[];
+  entries: IEntry[];
 }
- 
+
 export interface IRoomtype {
-    name: string;
+  name: string;
 }
 
 export interface IEntry {
-    hotelName: string;
-    rating: number;
-    city: string;
-    thumbnail: string;
-    guestrating: number;
-    ratings: IRating;
-    mapurl: string;
-    filters: IFilter[];
-    price: number;
+  hotelName: string;
+  rating: number;
+  city: string;
+  thumbnail: string;
+  guestrating: number;
+  ratings: IRating;
+  mapurl: string;
+  filters: IFilter[];
+  price: number;
 }
 
 export interface IRating {
-    no: number;
-    text: string;
+  no: number;
+  text: string;
 }
 
 export interface IFilter {
-    name: string;
+  name: string;
 }

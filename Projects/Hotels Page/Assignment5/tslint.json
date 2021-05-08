@@ -12,11 +12,12 @@
     },
     "array-type": false,
     "arrow-return-shorthand": true,
+    "comment-format": false,
     "curly": true,
     "deprecation": {
       "severity": "warning"
     },
-    "eofline": true,
+    "eofline": false,
     "import-blacklist": [
       true,
       "rxjs/Rx"
@@ -63,10 +64,6 @@
     "object-literal-key-quotes": [
       true,
       "as-needed"
-    ],
-    "quotemark": [
-      true,
-      "single"
     ],
     "semicolon": {
       "options": [
